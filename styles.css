@@ -855,7 +855,14 @@ textarea {
   .hero-photo{
     height: 420px;
   }
-  
+   .hero-bg {
+    inset: -21% -35% auto -35%;
+    height: 460px;
+    filter: blur(10px);
+    background:
+      radial-gradient(closest-side, rgba(46, 91, 225, 0.28), transparent 70%),
+      radial-gradient(closest-side, rgba(46, 91, 225, 0.14), transparent 68%);
+  }
 }
 
 /* Чтобы якоря не прятались под шапкой */
